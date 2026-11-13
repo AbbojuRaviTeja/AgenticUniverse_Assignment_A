@@ -1,0 +1,1 @@
+{"event_id": "evt_a_init", "event_type": "call.initiated", "workflow_id": "motor_renewal", "call_id": "call_A", "occurred_at": "2026-10-03 10:00:00", "phone": "9876543210", "payload": {}}

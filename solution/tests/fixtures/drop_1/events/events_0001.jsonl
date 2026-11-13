@@ -1,0 +1,21 @@
+{"event_id": "evt_a_init", "event_type": "call.initiated", "workflow_id": "motor_renewal", "call_id": "call_A", "occurred_at": "2026-10-03 10:00:00", "phone": "9876543210", "payload": {}}
+{"event_id": "evt_a_conn", "event_type": "call.connected", "workflow_id": "motor_renewal", "call_id": "call_A", "occurred_at": "2026-10-03T10:00:20+05:30", "phone": "9876543210", "payload": {}}
+{"event_id": "evt_a_end", "event_type": "call.ended", "workflow_id": "motor_renewal", "call_id": "call_A", "occurred_at": "2026-10-03T10:04:00+05:30", "phone": "9876543210", "payload": {"duration_sec": 220, "end_reason": "completed"}}
+{"event_id": "evt_a_set", "event_type": "disposition.set", "workflow_id": "motor_renewal", "call_id": "call_A", "occurred_at": "2026-10-03T10:05:00+05:30", "phone": "9876543210", "payload": {"disposition_code": "renewed"}}
+{"event_id": "evt_a_over", "event_type": "disposition.override", "workflow_id": "motor_renewal", "call_id": "call_A", "occurred_at": "2026-10-04T10:00:00+05:30", "payload": {"disposition_code": "not_interested", "overridden_by": "supervisor_1", "reason": "qa_review"}}
+{"event_id": "evt_b_init", "event_type": "call.initiated", "workflow_id": "motor_renewal", "call_id": "call_B", "occurred_at": "2026-10-03T20:30:00Z", "phone": "+91 98765 43210", "payload": {}}
+{"event_id": "evt_b_fail", "event_type": "call.telephony_failed", "workflow_id": "motor_renewal", "call_id": "call_B", "occurred_at": "2026-10-03T20:30:05Z", "phone": "+91 98765 43210", "payload": {"reason": "carrier_rejected"}}
+{"event_id": "evt_d_init", "event_type": "call.initiated", "workflow_id": "motor_renewal", "call_id": "call_D", "occurred_at": "2026-10-05T09:00:00+05:30", "phone": "91-91234-56789", "payload": {}}
+{"event_id": "evt_d_fail", "event_type": "call.telephony_failed", "workflow_id": "motor_renewal", "call_id": "call_D", "occurred_at": "2026-10-05T09:00:04+05:30", "phone": "91-91234-56789", "payload": {"reason": "sip_503"}}
+{"event_id": "evt_f_init", "event_type": "call.initiated", "workflow_id": "motor_renewal", "call_id": "call_F", "occurred_at": "2026-10-05 11:00:00", "phone": "09000011111", "payload": {}}
+{"event_id": "evt_f_conn", "event_type": "call.connected", "workflow_id": "motor_renewal", "call_id": "call_F", "occurred_at": "2026-10-05T11:00:15+05:30", "phone": "09000011111", "payload": {}}
+{"event_id": "evt_f_over", "event_type": "disposition.override", "workflow_id": "motor_renewal", "call_id": "call_F", "occurred_at": "2026-10-05T12:00:00+05:30", "payload": {"disposition_code": "payment_link_sent", "overridden_by": "supervisor_2", "reason": "misclassified"}}
+{"event_id": "evt_f_set", "event_type": "disposition.set", "workflow_id": "motor_renewal", "call_id": "call_F", "occurred_at": "2026-10-05T13:00:00+05:30", "phone": "09000011111", "payload": {"disposition_code": "renewed"}}
+{"event_id": "evt_g_init", "event_type": "call.initiated", "workflow_id": "motor_renewal", "call_id": "call_G", "occurred_at": "2026-10-06T10:00:00+05:30", "phone": "+917000000001", "payload": {}}
+{"event_id": "evt_g_conn", "event_type": "call.connected", "workflow_id": "motor_renewal", "call_id": "call_G", "occurred_at": "2026-10-06T10:00:10+05:30", "phone": "+917000000001", "payload": {}}
+{"event_id": "evt_g_bad", "event_type": "disposition.set", "workflow_id": "motor_renewal", "call_id": "call_G", "occurred_at": "2026-10-06T10:03:00+05:30", "phone": "+917000000001", "payload": {"disposition_code": "RENEWD"}}
+{"event_id": "evt_g_set", "event_type": "disposition.set", "workflow_id": "motor_renewal", "call_id": "call_G", "occurred_at": "2026-10-06T10:04:00+05:30", "phone": "+917000000001", "payload": {"disposition_code": "renewed"}}
+{"event_id": "evt_z_init", "event_type": "call.initiated", "workflow_id": "motor_renewal", "call_id": "call_Z", "occurred_at": "2026-10-06T08:00:00+05:30", "phone": "9111111111", "payload": {}}
+{"event_id": "evt_a_init", "event_type": "call.initiated", "workflow_id": "motor_renewal", "call_id": "call_A", "occurred_at": "2026-10-03 10:00:00", "phone": "9876543210", "payload": {}}
+{this is not json
+{"event_type": "call.initiated", "workflow_id": "motor_renewal"}

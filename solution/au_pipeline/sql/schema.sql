@@ -1,0 +1,2 @@
+-- Applied from sql/migrations in version order.
+-- This file is not executed. See migrations/001_initial.sql.
